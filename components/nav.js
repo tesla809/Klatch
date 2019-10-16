@@ -7,7 +7,6 @@ const linkArray = [
   { href: '', label: 'Messages' },
   { href: '', label: 'Notifications' },
   { href: '', label: 'User Profile' },
-  { href: '', label: 'GitHub' }
 ];
 
 const links = linkArray.map(link => {
@@ -51,9 +50,13 @@ const Nav = () => (
         padding: 6px 8px;
       }
       a {
-        color: #067df7;
+        color: #ED1C40;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 18px;
+      }
+
+      a:hover {
+        color: black;
       }
     `}</style>
   </nav>
