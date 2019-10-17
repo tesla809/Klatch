@@ -29,7 +29,7 @@ const Cards = () => (
         text-align: left;
         text-decoration: none;
         color: #434343;
-        border: 1px solid #9b9b9b;
+        border: 1px solid rgba(15, 23, 33, 0.87);
       }
       .card:hover {
         border-color: #067df7;
