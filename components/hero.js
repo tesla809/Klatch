@@ -11,7 +11,15 @@ const Hero = () => (
       .hero {
         width: 100%;
         color: #333;
-        background-color: #00455d;
+        background-color: rgba(0, 69, 93, 0.87);
+        padding-bottom: 20px;
+      
+        // outline and blend words to background
+        text-shadow:
+          -1px -1px 0 rgba(0, 69, 93, 1),
+          1px -1px 0 #333,
+          -1px 1px 0 rgba(0, 69, 93, 1),
+          1px 1px 0 #333;
       }
       .title {
         margin: 0;
@@ -23,6 +31,7 @@ const Hero = () => (
       .title,
       .description {
         text-align: center;
+        color: white;
       }
       .title {
         color: #ED1C40;
