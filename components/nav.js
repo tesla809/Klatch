@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 const Nav = ({ data }) => {
   const links = data.map(link => {
