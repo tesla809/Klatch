@@ -5,6 +5,8 @@ import Hero from '../components/hero'
 import Cards from '../components/cards'
 import Footer from '../components/footer'
 import landingHeaderData from '../components/landingHeaderData.js'
+import footerLandingPageData from '../components/footerLandingPageData.js'
+
 
 const Home = () => (
   <div>
@@ -15,7 +17,7 @@ const Home = () => (
     <Nav data={landingHeaderData}/>
     <Hero/>
     <Cards/>
-    <Footer/>
+    <Footer data={footerLandingPageData}/>
   </div>
 )
 
