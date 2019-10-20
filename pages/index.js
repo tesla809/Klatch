@@ -4,6 +4,7 @@ import Nav from '../components/nav'
 import Hero from '../components/hero'
 import Cards from '../components/cards'
 import Footer from '../components/footer'
+import landingHeaderData from '../components/landingHeaderData.js'
 
 const Home = () => (
   <div>
@@ -11,7 +12,7 @@ const Home = () => (
       <title>Klatch</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <Nav/>
+    <Nav data={landingHeaderData}/>
     <Hero/>
     <Cards/>
     <Footer/>
