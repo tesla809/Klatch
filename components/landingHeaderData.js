@@ -1,9 +1,7 @@
 const linkArray = [
   { href: '', label: 'Start a group' },
-  { href: '', label: 'Explore' },
-  { href: '', label: 'Messages' },
-  { href: '', label: 'Notifications' },
-  { href: '', label: 'User Profile' },
+  { href: '', label: 'Sign-Up' },
+  { href: '', label: 'Login' },
 ];
 
 export default linkArray;
