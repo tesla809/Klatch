@@ -1,15 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+import landingHeaderData from './landingHeaderData.js'
 
-const linkArray = [
-  { href: '', label: 'Start a group' },
-  { href: '', label: 'Explore' },
-  { href: '', label: 'Messages' },
-  { href: '', label: 'Notifications' },
-  { href: '', label: 'User Profile' },
-];
-
-const links = linkArray.map(link => {
+const links = landingHeaderData.map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
 })
